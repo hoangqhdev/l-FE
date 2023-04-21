@@ -1,0 +1,23 @@
+.block {
+  position: relative;
+  height: 200px;
+  background-color: aqua;
+}
+
+.block h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.block p {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* .block:hover p {
+  transform: translate(-50%, -100%);
+} */
